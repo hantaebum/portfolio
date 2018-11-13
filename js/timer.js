@@ -1,4 +1,6 @@
-setTimeout(function () {
+function soso () {
 	var loading = document.querySelector('.loading-box');
 	loading.remove();
-}, 3000);
+}
+
+setTimeout(soso, 3000);

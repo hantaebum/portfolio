@@ -6,6 +6,7 @@
 <title>반응형 만들기</title>
 <link rel= "stylesheet"  href="/css/style.css"> 
 <link rel= "stylesheet"  href="/css/responsive.css">
+
 </head>    
 <body>
     <header>
@@ -56,11 +57,16 @@
                     </div>
                 </li>
             </ul>
+            <div class="pager">
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
         <div class="projects">
             <div class="container">
                 <h3>Recent Projects</h3>
-                <ul>
+                <ul class="clearfix">
                     <li>
                         <img src="images/portfolio-thumb-1.jpg" alt="portfolio" />
                         <div class="hover-content">
@@ -107,6 +113,14 @@
             </div>
             <p>2018 &copy; han</p>
         </div>
-    </footer>    
+    </footer>
+    <div class="loading-box">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <script type="javascript" src="js/timer.js"></script>    
 </body>
 </html>
