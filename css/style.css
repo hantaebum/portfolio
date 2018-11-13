@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 21px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, h4, h5, p {
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.container {
+    padding: 0 15px;
+    
+}
+
+.clearfix:after {
+    content="";
+    display: block;
+    clear: both;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.9);
+    padding: 20px 0;
+}
+
+header aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    transition: all 0.5s;
+    margin-left: -300px;
+}
+
+header aside a {
+    color: #fff;
+}
+
+header aside .profile {
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+header aside .profile .pic-wrap {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+header aside .profile .pic-wrap img {
+    width: 100%;
+}
+
+header input {
+    display: none;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo img {
+    height: 30px;
+}
+
+header .bar-wrap {
+    float: right;
+}
+
+header .bar-wrap img {
+    height: 30px;
+}
+
+#bar:checked + aside {
+    margin-left: 0;
+}
+
+aside h4 {
+    font-size: 23px;
+    margin-bottom: 30px;
+    padding-left: 30px;    
+}
+
+aside .snb {
+    margin-bottom: 50px;    
+}
+
+aside .snb a {
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    font-size: 18px;
+    padding-left: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+aside .snb a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    z-index: -1;
+    transition: all 0.7s;
+}
+
+aside .snb a:hover:before {
+    width: 100%;
+}
+
+aside .snb li:nth-child(1) a:before {
+	background-color: #ec1b5a;
+}
+
+aside .snb li:nth-child(2) a:before {
+	background-color: #f8c407 ;
+}
+
+aside .snb li:nth-child(3) a:before {
+	background-color: #ccdb38;
+}
+
+aside .snb li:nth-child(4) a:before {
+	background-color: #35acdf ;
+}
+
+aside .sns-wrap {
+    text-align: center;
+}
+
+aside .sns-wrap li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+aside .sns-wrap li:last-child {
+    margin-right: 0;
+}
+
+aside .sns-wrap li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background: no-repeat center center/100%;
+    text-indent: -9999em;
+}
+
+.sns-wrap li .facebook {
+	background-image: url(../images/facebook.png);
+}
+.sns-wrap li .google-plus {
+	background-image: url(../images/googleplus.png);
+}
+.sns-wrap li .line {
+	background-image: url(../images/line.png);
+}
+.sns-wrap li .twitter {
+	background-image: url(../images/twitter.png);
+}
+
+
+
+
+
+
+
+
+
+
+.content .slide-wrap {
+    
+}
